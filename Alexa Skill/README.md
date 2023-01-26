@@ -9,6 +9,14 @@ Steps to reproduce the custom Alexa skill:
 - Upload the schema definition [json](./InteractionModel.json) file in your new skill's `Interaction Model > JSON Editor` and save
 - On successfully cloning schema to your skill, all that has to be done is set up a lambda function
 - Use the provided lambda [directory](./lambda/) which is written in `Node.js 16.x` to install `npm modules` in your local environment
+- The command to install new modules is `npm i {module name} `
+- The modules to be installed for now are `ask-sdk-core` and `ws`
+  <details>
+  <summary>👇Images</summary>
+  ![npm_i](../misc/npm_i.jpg)
+  </details>
+  
+  
 - After installing modules, compress all files in the directory into a `.zip` file and upload them to your AWS Lambda function
 - Create a DynamoDB table `YOUR_TABLE` for logging commands given by end-users
 - Now add the table name as a Lambda function's environment variable `TABLE: YOUR_TABLE`
