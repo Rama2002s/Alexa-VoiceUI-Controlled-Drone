@@ -13,7 +13,7 @@ Steps to reproduce the custom Alexa skill:
 - The modules to be installed for now are `ask-sdk-core` and `ws`
   <details>
   <summary>👇Images</summary>
-  ![npm_i](Alexa-VoiceUI-Controlled-Drone/misc/npm_i.jpg)
+  [npm-i](misc/npm-i.png)
   </details>
   
   
