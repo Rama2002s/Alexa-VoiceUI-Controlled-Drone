@@ -11,9 +11,11 @@ Steps to reproduce the custom Alexa skill:
 - Use the provided lambda [directory](./lambda/) which is written in `Node.js 16.x` to install `npm modules` in your local environment
 - The command to install new modules is `npm i {module name} `
 - The modules to be installed for now are `ask-sdk-core` and `ws`
+
   <details>
   <summary>👇Images</summary>
-  ![npm-i](misc/npm-i.png)
+  
+  ![npm-i](../misc/npm-i.png)
   </details>
   
   
